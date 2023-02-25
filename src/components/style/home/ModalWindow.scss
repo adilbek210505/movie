@@ -1,0 +1,52 @@
+#ModalWindow {
+  width: 48%;
+  height: 60%;
+  position: fixed;
+  top: 14%;
+  left: 25%;
+  background: #FFFFFF;
+  z-index: 4;
+
+  .modal {
+    display: flex;
+
+    &--desc {
+      width: 100%;
+
+      &--close {
+        display: flex;
+        justify-content: end;
+        font-size: 2.4rem;
+        padding: 0 15px;
+        color: red;
+        cursor: grabbing;
+      }
+
+      h3 {
+        padding: 0 20px;
+        color: #000;
+      }
+      h1 {
+        color: black;
+        padding: 0 20px;
+
+        font-size: 1.2rem;
+      }
+      P {
+        padding: 0 20px;
+        color: black;
+      }
+    }
+  }
+}
+
+.blur--modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  backdrop-filter: blur(20px);
+  background: rgba(0, 0, 0, 0.8);
+}

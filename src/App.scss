@@ -1,0 +1,35 @@
+@import "components/style/footer/Footer";
+@import "components/style/header/Header";
+@import "components/style/home/popular";
+@import "components/style/home/main";
+@import "components/style/home/Detail-page";
+@import "components/style/home/Cast";
+@import "components/style/home/Details-Acrors";
+@import "components/style/home/SearchResult";
+@import "components/style/home/MoviesVideos";
+@import "components/style/home/ModalWindow";
+@import "components/style/home/Upcoming";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+input {
+  outline: none;
+  border: none;
+}

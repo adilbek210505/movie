@@ -1,0 +1,31 @@
+#Movie {
+  padding: 100px 0 0 0;
+  .movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+    .movie--btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        width: 110px;
+        font-weight: 400;
+        height: 30px;
+        font-size: 14px;
+        text-align: center;
+        border-radius: 30px;
+        background: transparent;
+        color: rgba(119, 119, 119, 0.68);
+        border: 2px solid #40AB7E;
+
+        &:hover {
+          color: #000000;
+          background: #40AB7E;
+          transition: .4s;
+          border: none;
+        }
+      }
+    }
+}

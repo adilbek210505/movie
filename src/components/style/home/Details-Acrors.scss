@@ -1,0 +1,18 @@
+#Actors {
+  padding: 100px 0 10px 0;
+
+  .actors {
+    margin: 50px 0;
+    &--block {
+      display: flex;
+
+      &--des {
+        margin: 0 0 0 5%;
+        p {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
